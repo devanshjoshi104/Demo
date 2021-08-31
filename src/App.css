@@ -1,0 +1,42 @@
+h3{
+  font-size: 0.8em;
+}
+h1{
+  font-size: 1.2em;
+}
+
+
+ .header{
+  width: 100%;
+  min-height:7vh;
+  position:absolute;
+  top: 0;
+  left: 0;
+  font-size: 1.5em;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color:rgba(243, 234, 108, 0.4);
+ }
+ .App{
+  background-color:rgba(243, 234, 108, 0.3);
+  width: 100%;
+  min-height:100vh;
+  display:flex;
+  align-items:center;
+  justify-content:space-around;
+ 
+ }
+ .Products{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+ }
+ @media only screen and (max-width: 600px) {
+  .Products{
+    margin-top: 4rem;
+    flex-direction: column;
+  }
+}
